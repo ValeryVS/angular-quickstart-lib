@@ -34,7 +34,7 @@
       rxjs: {
         defaultExtension: 'js'
       },
-      'quickstart-lib': {
+      '@valeryvs/quickstart-lib': {
         main: 'index.js',
         defaultExtension: 'js'
       }
