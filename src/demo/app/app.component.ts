@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import { LibService } from '@valeryvs/quickstart-lib';
 
 @Component({
-  selector: 'demo-app',
+  selector: 'app-demo',
   template: `
-    <my-lib></my-lib>
+    <lib-component></lib-component>
     <h3>Meaning is: {{meaning}}</h3>
   `,
 })
 export class AppComponent {
-  meaning: number;
+  public meaning: number;
   constructor(libService: LibService) {
     this.meaning = libService.getMeaning();
   }

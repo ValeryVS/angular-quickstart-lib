@@ -8,7 +8,12 @@
     "experimentalDecorators": true,
     "lib": [ "es2015", "dom" ],
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
+    "suppressImplicitAnyIndexErrors": true,
+    "plugins": [
+      {
+        "name": "tslint-language-service"
+      }
+    ]
   },
   "exclude": [
     "main-aot.ts"
