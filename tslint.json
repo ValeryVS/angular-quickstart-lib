@@ -15,12 +15,20 @@
       true,
       140
     ],
+    "no-consecutive-blank-lines": [
+      true,
+      2
+    ],
     "no-inferrable-types": [
       true,
       "ignore-params"
     ],
     "no-non-null-assertion": true,
     "no-switch-case-fall-through": true,
+    "no-trailing-whitespace": [
+      true,
+      "ignore-template-strings"
+    ],
     "no-use-before-declare": true,
     "object-literal-sort-keys": false,
     "quotemark": [
